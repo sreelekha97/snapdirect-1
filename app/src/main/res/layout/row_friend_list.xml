@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"
+        app:border_width="4dp"
+        app:border_color="#EEEEEE"
+        android:src="@drawable/avatar"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgAvatar"
+        android:layout_toLeftOf="@+id/buttonAddFriend"
+        android:textSize="23sp"
+        android:gravity="left"
+        android:layout_margin="5dp"
+        android:text="" />
+
+    <include layout="@layout/button_add_friend"
+        android:id="@+id/buttonAddFriend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="0dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

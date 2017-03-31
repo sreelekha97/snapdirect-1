@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SnapDirect</string>
+    <string name="title_section1" translatable="false">Section 1</string>
+    <string name="title_section2" translatable="false">Section 2</string>
+    <string name="title_section3" translatable="false">Section 3</string>
+    <string name="welcome" translatable="false">Welcome to SnapDirect</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register" translatable="false">RegisterActivity</string>
+    <string name="name_hint" translatable="false">Username</string>
+    <string name="email_hint" translatable="false">mail</string>
+    <string name="phone_hint">number</string>
+    <string name="default_country_code_iso" translatable="false">RU</string>
+    <string name="sms_hint" translatable="false">1234</string>
+    <string name="sms_title" translatable="false">sms code</string>
+    <string name="register">Sign up</string>
+    <string name="demo_account"><a href=""> </a></string>
+    <string name="demo_notice"></string>
+    <string name="about">About</string>
+    <string name="eula_notice"> </string>
+    <string name="privacy_policy_notice"> </string>
+    <string name="link_eula" translatable="false"></string>
+    <string name="link_privacy_policy" translatable="false"></string>
+    <string name="apache_notice" translatable="false"></string>
+    <string name="btn_follow_text">Follow</string>
+    <string name="btn_unfollow_text">Unfollow</string>
+    <string name="btn_share_text">share</string>
+    <string name="edit_title_hint" translatable="false">Comment...</string>
+    <string name="edit_loading">Loading feed</string>
+    <string name="edit_loading_gallery">Loading gallery</string>
+    <string name="edit_uploading_image">Uploading image</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+    <string name="title_activity_image_details" translatable="false">ImageDetailsActivity</string>
+    <string name="drawer_open">My profile</string>
+    <string name="user_profile" translatable="false">User Profile</string>
+    <string name="drawer_close">Hide</string>
+    <string-array name="menu_items" translatable="false">
+        <item>Profile</item>
+    </string-array>
+    <string name="btn_like">Like</string>
+    <string name="btn_unlike">Unlike</string>
+    <string name="btn_comment">Comment</string>
+    <string name="btn_download">Download</string>
+    <string name="alert_title_comment">New comment</string>
+    <string name="alert_message_comment">What do you think?</string>
+    <string name="alert_send_button">Send</string>
+    <string name="alert_ok_button" translatable="false">OK</string>
+    <string name="alert_cancel_button">Cancel</string>
+    <string name="alert_delete">Delete</string>
+    <string name="alert_reply">Reply</string>
+    <string name="dialog_downloading">Downloading</string>
+    <string name="dialog_download_complete">Image downloaded</string>
+    <string name="dialog_creating_account">Creating account...</string>
+    <string name="dialog_uploading_avatar">Uploading avatar...</string>
+    <string name="dialog_please_wait">Please wait</string>
+    <string name="dialog_select_channels">Choose your favorite channels</string>
+    <string name="author_name_self">me</string>
+    <string name="word_by">by </string>
+    <string name="alert_new_version_available">New version is available. Would you like to update?</string>
+    <string name="alert_update_required">You must update application to proceed. Would you like to update now?</string>
+    <string name="alert_sms_title">SMS verification</string>
+    <string name="alert_sms_message">Please enter 4-digit verification code that you received in SMS</string>
+    <string name="alert_wrong_sms">SMS code is wrong. Please try again</string>
+    <string name="alert_input_name">Please input your name</string>
+    <string name="alert_input_phone">Please input phone in international format starting with +</string>
+    <string name="alert_select_image">Select image</string>
+    <string name="notification_new_comment">New comment</string>
+    <string name="notification_new_image">New image</string>
+    <string name="toast_img_not_found" translatable="false">Image not found or already deleted</string>
+    <string name="image" translatable="false">Image</string>
+    <string-array name="image_menu" translatable="false">
+        <item>Unshare</item>
+    </string-array>
+    <string name="user_avatar" translatable="false">User avatar</string>
+    <string name="user_name" translatable="false">Name:</string>
+    <string name="user_phone" translatable="false">Phone:</string>
+    <string name="user_email" translatable="false">E-mail:</string>
+    <string name="bookmark_friends">Friends</string>
+    <string name="bookmark_contacts">Contacts</string>
+    <string name="bookmark_channels">Channels</string>
+    <string name="bookmark_gallery">Gallery</string>
+    <string name="bookmark_folders">Folders</string>
+    <string name="bookmark_shares">My shares</string>
+    <string name="text_followers"> followers</string>
+    <string name="followers" translatable="false">Followers: </string>
+    <string name="aboutText">
+       </string>
+    <string-array name="contacts_bookmark_items">
+        <item>@string/bookmark_friends</item>
+        <item>@string/bookmark_contacts</item>
+        <item>@string/bookmark_channels</item>
+    </string-array>
+    <string-array name="contacts_bookmark_icons" translatable="false">
+        <item>@drawable/ic_tab_friends</item>
+        <item>@drawable/ic_tab_contacts</item>
+        <item>@drawable/ic_tab_channels</item>
+    </string-array>
+    <string-array name="gallery_bookmark_items">
+        <item>@string/bookmark_gallery</item>
+        <item>@string/bookmark_folders</item>
+        <item>@string/bookmark_shares</item>
+    </string-array>
+    <string-array name="gallery_bookmark_icons" translatable="false">
+        <item>@drawable/ic_tab_gallery</item>
+        <item>@drawable/ic_tab_folders</item>
+        <item>@drawable/ic_tab_shares</item>
+    </string-array>
+    <string name="playMarketDetailsLink" translatable="false">market://details?id=</string>
+    <string name="playMarketDetailsLinkAlt" translatable="false">https://play.google.com/store/apps/details?id=</string>
+</resources>

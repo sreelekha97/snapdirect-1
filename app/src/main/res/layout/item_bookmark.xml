@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtViewBookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Contacts"
+        android:textSize="20dp"
+        android:textColor="#ff707070"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:background="#ffe7e7e7"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bookmark_top"/>
+</FrameLayout>
